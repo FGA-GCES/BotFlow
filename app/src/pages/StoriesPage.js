@@ -65,7 +65,7 @@ class StoriesPage extends Component {
         <Grid item xs={9}>
           <Link to='/stories/new' style={{ textDecoration: 'none' }}>
             <Button color="primary" variant="contained" style={style.create_button}>
-              <Add />Cachorro
+              <Add />Criar novo diálogo
             </Button>
           </Link>
         </Grid>
