@@ -1,4 +1,4 @@
-import React from './node_modules/react'
+import React from 'react'
 
 const Flag = ({ image, isSelected, ...props }) => (
   <img alt="flag" src={image} className={isSelected ? 'flag selected' : 'flag'} {...props} />
